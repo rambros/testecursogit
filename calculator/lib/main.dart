@@ -31,16 +31,18 @@ class _HomePageState extends State<HomePage> {
               return ListView.builder(
                 
                 itemBuilder: (BuildContext context, int index) {
-                  return Card(
-                    child: Column(
-                      crossAxisAlignment: CrossAxisAlignment.stretch,
-                      children: <Widget>[ 
-                        Text("Name "+mydata[index]['name'] ),
-                        Text("Age "+mydata[index]['age'] ),
-                        Text("Height "+mydata[index]['height'] ),
-                        Text("Gender "+mydata[index]['gender'] ),
-                      ],
-                    )
+                  return Center(
+                    child: Card(
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.stretch,
+                        children: <Widget>[ 
+                          Text("Name "+mydata[index]['name'] ),
+                          Text("Age "+mydata[index]['age'] ),
+                          Text("Height "+mydata[index]['height'] ),
+                          Text("Gender "+mydata[index]['gender'] ),
+                        ],
+                      )
+                    ),
                   );
                 },
                 itemCount: mydata == null? 0: mydata.length,
