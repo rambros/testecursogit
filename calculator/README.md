@@ -1,6 +1,6 @@
 # calculator
 
-A new Flutter project.
+A new Flutter project feito para testar o GitHub integrado com o VSCode.
 
 ## Getting Started
 
