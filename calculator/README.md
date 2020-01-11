@@ -1,4 +1,4 @@
-# calculator
+# CALCULATOR
 
 A new Flutter project feito para testar o GitHub integrado com o VSCode.
 
