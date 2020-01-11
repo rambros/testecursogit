@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Rodrigo",
+        "age": "30",
+        "height": "175",
+        "gender": "white"
+    },
+    {
+        "name": "Maria",
+        "age": "25",
+        "height": "165",
+        "gender": "white"
+    },
+    {
+        "name": "Jonatahn",
+        "age": "22",
+        "height": "175",
+        "gender": "black"
+    }
+]
